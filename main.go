@@ -5,7 +5,7 @@ import "net/http"
 
 func main() {
 handlerIndex := func(w http.ResponseWriter, r *http.Request) {
-fmt. Fprintln(w, "Hallo nama saya isi masing")
+fmt. Fprintln(w, "Hallo nama saya muhammad zaky")
 }
 http.HandleFunc("/", handlerIndex)
 
